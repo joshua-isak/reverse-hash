@@ -17,4 +17,4 @@ raw:   'or'4t>Cr@
 time:  10m24.0585467s
 ```
 
-Input is the input string that was hashed, producing an output in hexadecimal and raw ASCII.
+Input is the string that was hashed, producing an output in hexadecimal and raw ASCII.
