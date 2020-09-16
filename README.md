@@ -6,8 +6,6 @@ https://cvk.posthaven.com/sql-injection-with-raw-md5-hashes
 
 This program is not the most efficient way to check for hashes containing the shortest possible SQL injection that can bypass a rudimentary login, but instead focuses on leveraging the concurrency of multiple CPU cores to speed up computation (why code good when more cpu do the trick?).
 
-This is however a decent way to find specific strings in MD5 hashes should you have the need.
-
 Below is an example output searching for "'or'4" with 8 goroutines on a Ryzen 7 3700X
 
 ```
